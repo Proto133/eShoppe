@@ -36,7 +36,7 @@
 
   |  GET API Call                              | POST API Call                               | PUT API Call                               | 
   |:------------------------------------------------------:|:------------------------------------------------------:|:------------------------------------------------------:|
-  | <img alt="API Call Screenshot(GET)" href="https://loremflickr.com/240" src="https://loremflickr.com/240" width="150" height="150"> |<img alt="API Call Screenshot (Post)" href="https://loremflickr.com/240" src="https://loremflickr.com/240" width="150" height="150">|<img alt="API Call Screenshot (PUT)" href="https://loremflickr.com/240" src="https://loremflickr.com/240" width="150" height="150">|
+  | <img alt="API Call Screenshot(GET)" href="https://loremflickr.com/240/240" src="https://loremflickr.com/240/240" width="150" height="150"> |<img alt="API Call Screenshot (Post)" href="https://loremflickr.com/240/240" src="https://loremflickr.com/240/240" width="150" height="150">|<img alt="API Call Screenshot (PUT)" href="https://loremflickr.com/240/240" src="https://loremflickr.com/240/240" width="150" height="150">|
   |                                                        |                                                        |                                                        |
   |                                                        |                                                        |                                                        |   
 
