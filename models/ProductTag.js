@@ -26,7 +26,7 @@ const ProductTag = sequelize.define('ProductTag', {
 }, {
     sequelize,
     timestamps: false,
-    freezeTableName: false,
+    freezeTableName: true,
     underscored: true,
     modelName: 'product_tag',
 });

@@ -41,7 +41,7 @@ const Product = sequelize.define('Product', {
 }, {
     sequelize,
     timestamps: false,
-    freezeTableName: false,
+    freezeTableName: true,
     underscored: true,
     modelName: 'product',
 });

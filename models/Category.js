@@ -15,6 +15,7 @@ const Category = sequelize.define('Category', {
     }
 }, {
     sequelize,
+    freezeTableName: true,
     timestamps: false,
     underscored: true,
     modelName: 'category',

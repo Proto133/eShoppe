@@ -15,7 +15,7 @@ const Tag = sequelize.define('Tag', {
 }, {
     sequelize,
     timestamps: false,
-    freezeTableName: false,
+    freezeTableName: true,
     underscored: true,
     modelName: 'tag',
 });
