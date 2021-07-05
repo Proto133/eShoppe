@@ -17,7 +17,7 @@ const Tag = sequelize.define('Tag', {
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'tag',
+    modelName: 'Tag',
 });
 
 module.exports = Tag;

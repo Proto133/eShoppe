@@ -12,14 +12,14 @@ const ProductTag = sequelize.define('ProductTag', {
     product_id: {
         type: DataTypes.INTEGER,
         references: {
-            model: 'product',
+            model: 'Product',
             key: 'id'
         }
     },
     tag_id: {
         type: DataTypes.INTEGER,
         references: {
-            model: 'tag',
+            model: 'Tag',
             key: 'id'
         }
     }
@@ -28,7 +28,7 @@ const ProductTag = sequelize.define('ProductTag', {
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product_tag',
+    modelName: 'Product_tag',
 });
 
 module.exports = ProductTag;
