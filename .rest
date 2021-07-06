@@ -1,0 +1,62 @@
+POST http://localhost:3001/api/products HTTP/1.1
+content-type: application/json
+
+{
+    "product_name": "Phone Case",
+    "price":"30",
+    "stock": "50",
+    "category_id": "12"
+}
+###
+
+POST http://localhost:3001/api/categories HTTP/1.1
+content-type: application/json
+
+{
+    "category_name": "Misc"
+}
+###
+
+
+PUT http://localhost:3001/api/categories/1 HTTP/1.1
+content-type: application/json
+
+{
+   "category_name": "TShirts"
+}
+###
+
+POST http://localhost:3001/api/manufacturers HTTP/1.1
+content-type: application/json
+
+{
+        "name" : "Lexus"   
+}
+###
+
+POST http://localhost:3001/api/owners HTTP/1.1
+content-type: application/json
+
+{
+        "firstName":"Peter",
+        "lastName":"Roto",
+        "age":"33"
+}
+    
+###
+
+GET http://localhost:3001/api/owners HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3001/api/manufacturers HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3001/api/cars HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3001/api/individuals HTTP/1.1
+content-type: application/json

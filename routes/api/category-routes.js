@@ -74,7 +74,9 @@ router.put('/:id', (req, res) => {
                 res.status(404).json({ message: 'No category found with this id' });
                 return;
             }
-            res.json(dbCatData);
+            res.status(200).json({
+                message: `This action has effected ${dbCatData} record(s)`
+            });
         })
         .catch(err => {
             console.log(err);
