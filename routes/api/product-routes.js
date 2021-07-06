@@ -99,6 +99,7 @@ router.put('/:id', (req, res) => {
         })
         .then((product) => {
             // find all associated tags from ProductTag
+            console.log("Products:", product + "\n" + ' \n ProductTag:', ProductTag);
             return ProductTag.findAll({ where: { product_id: req.params.id } });
         })
         .then((productTags) => {
