@@ -3,6 +3,7 @@ const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
 
+
 router.get('/', (req, res) => {
     // find all tags
     // be sure to include its associated Product data
@@ -79,7 +80,7 @@ router.delete('/:id', (req, res) => {
         })
         .then(dbTagData => {
             if (!dbTagData) {
-                res.status(404).json({ message: 'No tag found with this id' });
+                res.status(404).json('No Tag Found With This ID . . . It Worked!');
                 return;
             }
             res.json(dbTagData);

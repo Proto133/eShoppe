@@ -90,7 +90,7 @@ router.delete('/:id', (req, res) => {
         }
     }).then(dbCatData => {
         if (!dbCatData) {
-            res.status(404).json({ message: 'Good News: The ID is Gone, The Bad News: You had Nothing To Do With This Fact.' });
+            res.status(404).json({ message: `Good News: The Category With The ID of ${req.params.id} is Gone, Bad News: You had Nothing To Do With This Fact.` });
             return;
         }
         res.json(dbCatData);
